@@ -1,4 +1,50 @@
 {
-  "name": "supportPlans",
-  "displayName": "supportPlans"
+  "expo": {
+    "name": "my-app",
+    "slug": "my-app",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/adaptive-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#FFFFFF"
+      },
+      "package": "com.NVT.DiaryAndNote",
+      "googleServicesFile": "./google-services.json"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "android.config.googleMaps.apiKey": "AIzaSyBgmPpTS4Txcz0Fa97pPGoQ06ubI8hiRfU",
+    "client": [
+      {
+        "api_key": [
+          {
+            "current_key": "AIzaSyBxJk4ZxCNYyEDJDLSaPNtrhHAw_gd-tAY"
+          }
+        ]
+      }
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "1209bc57-cc70-46bf-a9e2-cd31874ce5cc"
+      }
+    }
+  }
 }
